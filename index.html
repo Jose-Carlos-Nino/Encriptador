@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class="contenerdor-principal">
+
+        <div>
+            
+            <div>
+            <img src="Imagenes/Vectorlogo.png" class="logo">
+            </div>
+
+            <div class="mensaje1">
+            <textarea class="text-area" cols="30" rows="6" placeholder="Ingrese texto aquí" autofocus></textarea>
+            <p class="condicion"><img src="imagenes/Vector.png" class="icono"> Solo letras minúsculas y sin acentos</p>
+            </div>
+
+        </div>
+
+        <div>
+
+            <div>
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>  
+
+        </div>
+
+        <div class="contenedor-secundario">
+
+            <img src="imagenes/Muñecomuñeco.png" class="muneco">
+
+            <div>
+                <h1>Ningún mensaje fue encontrado</h1>
+                <p class="aviso">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+
+            <textarea class="mensaje" cols="10" rows="20" placeholder="Resultado..." autofocus></textarea>
+
+        </div>
+
+        <div>
+            <button class="btn-copiar">Copiar</button>
+        </div>
+
+    </main>
+
+    <script src="function.js"></script>
+</body>
+<footer>&#xae Desarrollado por Jose Niño</footer>
+</html> 
